@@ -1,0 +1,156 @@
+h1, h2, h3, h4 {
+    font-size: 40px;
+    color: #8fd2ff;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2, h3, h4 {
+    text-align: center;
+}
+
+th, td, p, ul li, h1, h2, h3, h4 {
+    font-family: verdana;
+    text-transform: uppercase;
+}
+
+article th, article, article td, article p, article ul li, ul, h2, h3 {
+    background-color: grey;
+    color: aliceblue;
+}
+
+*, header th, header td, header p, header ul li, footer p, h1, h4 {
+    color: #8fd2ff;
+    background-color: #232323
+}
+
+#firstp {
+        top: 15px;
+}
+p, h1 {
+    margin-bottom: 3px;
+    margin-left: 15px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+#top {
+    font-size: 40px;
+}
+
+td {
+    font-size: 20px;
+}
+
+th {
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center
+}
+
+p {
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+a {
+    transform: translate(-50%, -500%);
+    width: 180px;
+    height: 50px;
+    background: #232323;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    color: #8fd2ff;
+    font-size: 20px;
+    font-family: verdana;
+    letter-spacing: 4px;
+    /*    border-radius: 20px; */
+}
+
+    a:before,
+    a:after,
+    span:before,
+    span:after {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background: #8fd2ff;
+        transition: 1s;
+        mix-blend-mode: hue;
+    }
+
+    a:before {
+        top: -2px;
+        left: -2px;
+    }
+
+    a:after {
+        top: -2px;
+        right: -2px;
+    }
+
+span:before {
+    bottom: -2px;
+    left: -2px;
+}
+
+span:after {
+    bottom: -2px;
+    right: -2px;
+}
+
+a:hover:before,
+a:hover:after,
+a:hover span:before,
+a:hover span:after {
+    width: calc( 180px );
+    height: calc( 50px );
+    background: #167b7e;
+}
+
+a:focus,
+a:hover:before,
+a:hover:after,
+a:hover span:before,
+a:hover span:after {
+    color: darkcyan;
+}
+
+a.one {
+    position: absolute;
+    left: 70%;
+}
+
+a.two {
+    position: absolute;
+    left: 85%;
+}
+
+a.three {
+    position: absolute;
+    bottom: -152.5%;
+    right: 10%;
+}
+
+a.four {
+    position: absolute;
+    left: 53%;
+    width: 250px
+}
+
+a.five {
+    position: absolute;
+    left: 35%;
+    width: 250px
+}
+
+a.one, a.two, a.four, a.five {
+    top: 34.5%;
+}
